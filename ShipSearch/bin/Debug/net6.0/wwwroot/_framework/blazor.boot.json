@@ -198,13 +198,13 @@
       "mscorlib.dll": "sha256-ghlJNtzzYlKIliGPuf0A0Yu6dmLycSx3F9uyeddFb\/g=",
       "netstandard.dll": "sha256-qpOz\/RBwhlIYfaE2GDEmjiproxkvSf2b9GeqHxvH+lg=",
       "System.Private.CoreLib.dll": "sha256-sfzSZ3YKC2rpF77TVOKLuPgQag93QXr9U4AUc9d\/LKA=",
-      "ShipSearch.dll": "sha256-ddxepObx\/WM\/dxCkgJJV7Hc0olIckA9zjqKevZ+7OxA="
+      "ShipSearch.dll": "sha256-LM7kOQB4JJmP7LQBZhCci8V956my5R0Ea5TfSru4Ggc="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "ShipSearch.pdb": "sha256-7GtPijlyICFGJKrbcjIF\/hQD1G3UmhJOGZ8AGC0+\/pA="
+      "ShipSearch.pdb": "sha256-H6mmGlBSpEoL4\/n\/QmlZ+n3HKXJIUedejCYvMi0hAMA="
     },
     "runtime": {
       "dotnet.6.0.5.jl227au7rt.js": "sha256-783uOt0jgblQfP6Yz5TJeuW2xxtl6UHZQPngZtCz79U=",
