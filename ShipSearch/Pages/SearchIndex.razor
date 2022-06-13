@@ -1,0 +1,48 @@
+﻿@page "/"
+
+<PageTitle>Ship Search</PageTitle>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+@if (isLoading == true)
+{
+    <div class="spinner"></div>
+}
+else
+{
+    <form>
+        <div class="form-group row">
+            <label for="searchField" class="col-2 col-form-label">Search</label>
+            <div class="col-4">
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <div class="input-group-text">
+                            <i class="fa fa-space-shuttle"></i>
+                        </div>
+                    </div>
+                    <input id="searchField" @bind="@searchTerm" name="searchField" type="text" class="form-control" aria-describedby="searchFieldHelpBlock" required="required">
+                </div>
+                <span id="searchFieldHelpBlock" class="form-text text-muted">Enter your search term to find a starship</span>
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="offset-4 col-4">
+                <button name="submit" type="button" class="btn btn-primary" @onclick="RunSearch">Submit</button>
+            </div>
+        </div>
+    </form>
+    
+    foreach (var starship in foundStarships)
+    {
+        <div class="card">
+            <div class="card-header">
+                <h3>@starship.name</h3>
+            </div>
+            <div class="card-body">
+                <p>@starship.model</p>
+                <p>@starship.manufacturer</p>
+            </div>
+        </div>
+    }
+}
