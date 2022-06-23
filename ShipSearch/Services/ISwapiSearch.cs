@@ -4,5 +4,5 @@ namespace ShipSearch.Services;
 
 public interface ISwapiSearch
 {
-    Task<IEnumerable<Starship>> SearchStarships(string searchTerm);
+    Task<IEnumerable<Starship>?> SearchStarships(string searchTerm);
 }

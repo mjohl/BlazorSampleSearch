@@ -1,13 +1,22 @@
-﻿using ShipSearch.Models;
+﻿using System.Net;
+using System.Net.Http.Json;
+using ShipSearch.Models;
 using System.Text.Json;
 
 namespace ShipSearch.Services.Impl;
 
 public class SwapiSearch : ISwapiSearch
 {
-    public async Task<IEnumerable<Starship>> SearchStarships(string searchTerm)
+    public SwapiSearch(HttpClient httpClient)
     {
-        var nextLink = "https://swapi.dev/api/starships";    
+        this.httpClient = httpClient;
+    }
+
+    public HttpClient httpClient { get; }
+    
+    public async Task<IEnumerable<Starship>?> SearchStarships(string searchTerm)
+    {
+        var nextLink = $"https://swapi.dev/api/starships/?search={searchTerm}";
         
         var starships = new List<Starship>();
         
@@ -20,7 +29,7 @@ public class SwapiSearch : ISwapiSearch
             starships.AddRange(result.results);
             nextLink = result.next;
         }
-
+        
         return starships.Where(x => x.name.Contains(searchTerm));
     }
 }

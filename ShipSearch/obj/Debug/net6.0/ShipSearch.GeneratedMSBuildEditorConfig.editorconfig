@@ -11,29 +11,29 @@ build_property.EnableTrimAnalyzer = true
 build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = ShipSearch
 build_property.RootNamespace = ShipSearch
-build_property.ProjectDir = C:\Users\MJohl\source\repos\SWAPI\ShipSearch\
+build_property.ProjectDir = J:\Source\Repos\BlazorSampleSearch\ShipSearch\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\MJohl\source\repos\SWAPI\ShipSearch
+build_property.MSBuildProjectDirectory = J:\Source\Repos\BlazorSampleSearch\ShipSearch
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/MJohl/source/repos/SWAPI/ShipSearch/App.razor]
+[J:/Source/Repos/BlazorSampleSearch/ShipSearch/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/MJohl/source/repos/SWAPI/ShipSearch/_Imports.razor]
+[J:/Source/Repos/BlazorSampleSearch/ShipSearch/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/MJohl/source/repos/SWAPI/ShipSearch/Pages/SearchIndex.razor]
+[J:/Source/Repos/BlazorSampleSearch/ShipSearch/Pages/SearchIndex.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VhcmNoSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-ezfr3vw1is
 
-[C:/Users/MJohl/source/repos/SWAPI/ShipSearch/Shared/MainLayout.razor]
+[J:/Source/Repos/BlazorSampleSearch/ShipSearch/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-rhz3u7s0kf
 
-[C:/Users/MJohl/source/repos/SWAPI/ShipSearch/Shared/NavMenu.razor]
+[J:/Source/Repos/BlazorSampleSearch/ShipSearch/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-hsxpngdtxg
