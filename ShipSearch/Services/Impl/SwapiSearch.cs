@@ -1,18 +1,16 @@
-﻿using System.Net;
-using System.Net.Http.Json;
-using ShipSearch.Models;
+﻿using ShipSearch.Models;
 using System.Text.Json;
 
 namespace ShipSearch.Services.Impl;
 
 public class SwapiSearch : ISwapiSearch
 {
+    public HttpClient httpClient { get; }
+
     public SwapiSearch(HttpClient httpClient)
     {
         this.httpClient = httpClient;
     }
-
-    public HttpClient httpClient { get; }
     
     public async Task<IEnumerable<Starship>?> SearchStarships(string searchTerm)
     {

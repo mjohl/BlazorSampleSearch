@@ -1630,29 +1630,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\inox\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\MJohl\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "J:\\Source\\Repos\\BlazorSampleSearch\\ShipSearch\\ShipSearch.csproj",
+      "projectUniqueName": "C:\\Users\\MJohl\\source\\repos\\BlazorSampleSearch\\ShipSearch\\ShipSearch.csproj",
       "projectName": "ShipSearch",
-      "projectPath": "J:\\Source\\Repos\\BlazorSampleSearch\\ShipSearch\\ShipSearch.csproj",
-      "packagesPath": "C:\\Users\\inox\\.nuget\\packages\\",
-      "outputPath": "J:\\Source\\Repos\\BlazorSampleSearch\\ShipSearch\\obj\\",
+      "projectPath": "C:\\Users\\MJohl\\source\\repos\\BlazorSampleSearch\\ShipSearch\\ShipSearch.csproj",
+      "packagesPath": "C:\\Users\\MJohl\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\MJohl\\source\\repos\\BlazorSampleSearch\\ShipSearch\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\inox\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\MJohl\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1702,7 +1699,7 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-            "version": "[6.0.1, 6.0.1]"
+            "version": "[6.0.6, 6.0.6]"
           }
         ],
         "frameworkReferences": {
@@ -1710,7 +1707,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {
